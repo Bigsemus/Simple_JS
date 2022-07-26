@@ -1,0 +1,31 @@
+.addTweet {
+    background-color: rgb(21, 126, 196);
+}
+
+.listPage {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.toTwitt {
+    background-color: rgb(226, 51, 51);
+}
+
+.toTwitt.checked {
+    background-color: rgb(121, 68, 68);
+    opacity: 0.5;
+}
+
+.toTwitt.removing {
+    animation: opacity 3s ease-in-out;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
