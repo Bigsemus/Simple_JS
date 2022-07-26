@@ -1,0 +1,72 @@
+/* START: Task 1 Styles */
+#task1 {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.col {
+    border: 1px solid;
+    padding: 40px;
+
+}
+
+.col6 {
+    padding: 30px;
+}
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2 {
+    width: 370px;
+    margin: 0 auto;
+    padding-top: 115px;
+}
+
+
+.div2 {
+    width: 370px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.inp {
+    height: 37px;
+    width: 300px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 6px;
+}
+
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+#task3 {
+    padding-top: 50px;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+#field {
+    width: 1020px;
+    height: 550px;
+    border: 10px solid black;
+    background-image: url(./assets/court.png);
+    ;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#ball {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+}
+
+/* END: Task 3 Styles */
