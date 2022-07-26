@@ -1,0 +1,22 @@
+#root {
+  .listPage {
+    .liked-list-item {
+      background-color: #fff;
+    }
+    .unlike,
+    .delete {
+      color: red;
+    }
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(150, 218, 245);
+    h1 {
+      color: white;
+    }
+    button {
+      color: white;
+      background-color: rgb(25, 114, 150);
+      border-radius: 50px;
+    }
+  }
+}
