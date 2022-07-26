@@ -1,3 +1,6 @@
 # Simple_JS
 
-All examples in branches
+1.API (https://jsonplaceholder.typicode.com/)
+
+2. Chat
+![img.png](img.png)

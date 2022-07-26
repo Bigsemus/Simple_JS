@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WS Chat</title>
+</head>
+
+<body>
+    <form name="publish">
+        <div class="nameWrap">
+            What is your name?
+            <input type="text" name="name" />
+        </div>
+        Writing your message:
+        <input type="text" name="message" />
+        <input type="submit" value="send" />
+    </form>
+
+    <div id="messages"></div>
+    <div id="myMessages"></div>
+
+    <script src="chat.js"></script>
+</body>
+
+</html>
