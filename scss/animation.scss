@@ -1,0 +1,18 @@
+.comp-field.blink {
+  animation-play-state: paused;
+  .rock {
+    animation: blink 0.3s linear infinite;
+  }
+  .scissors {
+    animation: blink 0.3s 0.1s linear infinite;
+  }
+  .paper {
+    animation: blink 0.3s 0.2s linear infinite;
+  }
+}
+
+@keyframes blink {
+  100% {
+    background-color: green;
+  }
+}

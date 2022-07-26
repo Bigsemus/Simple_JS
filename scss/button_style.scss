@@ -1,0 +1,45 @@
+.field.active {
+  background-color: green;
+}
+.field.error {
+  background-color: red;
+}
+.comp-field {
+  justify-content: flex-end;
+}
+.rock {
+  background: url(../img/rock.png) center no-repeat;
+}
+.scissors {
+  background: url(../img/scissors.png) center no-repeat;
+}
+.paper {
+  background: url(../img/paper.png) center no-repeat;
+}
+
+.buttons {
+  padding: 20px 15px;
+  text-align: center;
+  button {
+    margin: 0 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 2px 3px 0 #0c4e00;
+    transition: 0.2s;
+    outline: none;
+    &:active,
+    &:hover {
+      transform: translate(1px, 1px);
+      box-shadow: 1px 1px 0 #0c4e00;
+    }
+  }
+}
+.play {
+  background: linear-gradient(180deg, #00cb48, #126e01);
+}
