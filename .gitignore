@@ -1,0 +1,7 @@
+#ignore
+
+/node_modules
+/coverage
+debug.log
+package-lock.json
+src/node_modules

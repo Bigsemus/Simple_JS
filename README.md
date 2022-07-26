@@ -1,3 +1,3 @@
 # Simple_JS
 
-All examples in branches
+run test
